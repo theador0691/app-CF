@@ -13,3 +13,71 @@
  *= require_tree .
  *= require_self
  */
+
+/*Universal thins*/
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+/*Fonts*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+}
+p, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+/*Setting the background image*/
+body{
+  background:url("background.jpg");
+  background-size:cover;
+}
+
+/*Navigation bar*/
+
+.navbar{
+  background-color:#0B486B;
+  padding-top:10px;
+  padding-bottom:10px;
+
+}
+
+.nav a{
+  color: #AEE239;
+  border-radius: 10px;
+}
+
+.mine li a{
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.mine li a:hover{
+  background-color: #0B486B;
+  font-size:1.5em;
+}
+
+/*Navbar Branding*/
+
+.navbar-brand{
+  color:white;
+  font-weight: 700;
+  text-transform:uppercase;
+}
+
+.navbar-brand:hover{
+  font-size:1.6em;
+  color:white;
+  text-transform:uppercase;
+}
+
+
+
+
+
+

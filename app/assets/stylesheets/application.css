@@ -24,12 +24,13 @@ html, body {
 }
 
 
+
 /*Fonts*/
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Corben', Georgia, Times, serif;
+    font-family: 'Anton', Georgia, Times, serif;
 }
 p, div {
-    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+    font-family: 'Anton', Helvetica, Arial, sans-serif;
 }
 
 /*Setting the background image*/
@@ -47,19 +48,23 @@ body{
 
 }
 
-.nav a{
-  color: #AEE239;
-  border-radius: 10px;
-}
 
 .mine li a{
+  color: #AEE239;
+  border-radius: 10px;
   margin-left:10px;
   margin-right:10px;
+  font-size:1.4em;
 }
 
 .mine li a:hover{
   background-color: #0B486B;
-  font-size:1.5em;
+  font-size:2em;
+}
+
+.mine li a:active{
+  background-color: #0B486B;
+  font-size:2em;
 }
 
 /*Navbar Branding*/
@@ -77,7 +82,17 @@ body{
 }
 
 
+/*Contact Page*/
 
+.me-contact{
+  width:40%;
+  margin:0 auto;
+  border-radius:90%;
+  margin-top:30px;
+}
 
+#submit{
+  margin:0 auto;
+}
 
 
